@@ -1,11 +1,11 @@
 '''
-TITLE: 3-1-b
+TITLE: Ex-3-1-b
 AUTHOR: Connor Moore
 DATE: 2.1.17
 DESCRIPTION: Prints the repetitive poem 10 times.
 MODIFICATION HISTORY AND OUTSIDE RESOURCES:
 Last Updated 2.1;
-Used section 1.5.2, and 1.7
+
 I added an empty line at the end of the poem,
 so that I can count the number of poems easier.
 '''
