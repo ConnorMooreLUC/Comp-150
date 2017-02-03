@@ -5,7 +5,7 @@ DATE: 2.1.17
 DESCRIPTION: Calculating the range of permutations of
 a string given length and size of character set.
 MODIFICATION HISTORY AND OUTSIDE RESOURCES:
-Last Updated 2.1;
+Last Updated 2.2;
 
 '''
 def numberOfStrings(numberOfCharacters, lengthOfString):
