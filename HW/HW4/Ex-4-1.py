@@ -16,7 +16,7 @@ def spacedOut(words):
     return sw
 def main():
     print(spacedOut(["The cat", "ate", "the mouse."]))
-    print(spacedOut(["a ", " b ", " c"]))
+    print(spacedOut(['a ', ' b ', ' c ',' d']))
     print(spacedOut([]))
 
 main()
