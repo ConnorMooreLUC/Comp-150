@@ -7,14 +7,17 @@ and then rewrites the line to a new file, in 'Last, First' form.
 
 MODIFICATION HISTORY AND OUTSIDE RESOURCES: 
   Creation date:  3/5/17
+  Updated 3/15/17
+  Fixed order, and text formatting
 
 '''
 def lastFirst(source,output):
     f = open(source, "r")
     g = open(output,"w")
     for line in f:
+        line = line.strip('\n')
         string = line.split(' ')
-        out = string[0] + ', ' + string[1]
+        out = string[1] + ', ' + string[0]+'\n'
         g.write(out)
     f.close()
     g.close()
